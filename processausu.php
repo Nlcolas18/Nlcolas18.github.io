@@ -7,7 +7,7 @@ $email = $_POST['email'];
 $profissao = $_POST['profissao'];
 
 $sql = "insert into usuarios (nome,email,profissao) values ('$nome', '$email', '$profissao')";
-//$salvar = mysqli_query($conexaousu, $sql);
+$salvar = mysqli_query($conexaousu, $sql);
 
 $linhas = mysqli_affected_rows($conexaousu);
 
