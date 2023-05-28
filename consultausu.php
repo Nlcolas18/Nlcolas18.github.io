@@ -26,7 +26,7 @@ $registro = mysqli_num_rows($consulta);
     <div class="container">
     <nav>
             <ul class="menu">
-        <a href="cadastro.php"><li>Usuários</li></a>
+        <a href="cadastro.html"><li>Usuários</li></a>
         <a href="consultausu.php"><li>Consulta de Usuário</li></a>
         <a href="produtos.php"><li>Produtos</li></a>                
         <a href="consultaprod.php"><li>Consulta de Produtos</li></a>
