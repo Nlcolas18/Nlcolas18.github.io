@@ -8,7 +8,6 @@ $profissao = $_POST['profissao'];
 
 $sql = "insert into usuarios (nome,email,profissao) values ('$nome', '$email', '$profissao')";
 $salvar = mysqli_query($conexaousu, $sql);
-
 $linhas = mysqli_affected_rows($conexaousu);
 
 
@@ -23,7 +22,7 @@ mysqli_close($conexaousu);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="usuarios.css">
 </head>
 <body>
