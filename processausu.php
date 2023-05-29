@@ -1,5 +1,5 @@
 <?php
-//Processo Banco de dados Usuarios
+//Processo Banco de dados Usuarios / Cadastro foi ou nao efetuado
 include_once("conexaousu.php");
 
 $nome = $_POST['nome'];

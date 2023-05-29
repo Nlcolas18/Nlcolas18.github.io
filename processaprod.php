@@ -1,5 +1,5 @@
 <?php
-//Processo Banco de dados Produtos
+//Processo Banco de dados Produtos / Cadastro foi ou nao efetuado
 include_once("conexaoprod.php");
 
 $produto = $_POST['produto'];
@@ -45,7 +45,7 @@ mysqli_close($conexaoprod);
             if($linhas == 1){
                 print "Cadastro efetuado com sucesso!";
             }else{
-                print "Cadastro NÃO efetuado. <br> Já existe um usuário com este e-mail!";
+                print "Cadastro NÃO efetuado.";
                 
             }
 
